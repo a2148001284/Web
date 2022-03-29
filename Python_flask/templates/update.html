@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input-test</title>
+</head>
+<body>
+获取Cookie内容成功！
+您当前登录的用户是：{{username}}
+您的id是：{{userid}}
+<form method="post" action="/update_address">
+    旧密码:<input type="text" name="pass1" /><br/>
+    新密码:<input type="password" name="pass2" /><br/>
+    重复新密码:<input type="password" name="pass3" /><br/>
+    <input type="submit" value="点我提交" />
+</form>
+</body>
+</html>
